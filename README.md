@@ -44,4 +44,32 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
+
+# PLP Bookstore – MongoDB Script
+
+This project sets up a sample MongoDB database called `plp_bookstore` and demonstrates common MongoDB operations such as data insertion, querying, updating, deleting, aggregation, indexing, and performance analysis using `explain()`.
+
+---
+
+## 📁 File Structure
+
+- `insert_books.js` – JavaScript file containing all MongoDB operations
+- `README.md` – Documentation for understanding and using the script
+
+---
+
+## ⚙️ Prerequisites
+
+- MongoDB installed and running
+- `mongosh` command-line shell installed
+- Alternatively, you can use **MongoDB Compass** to run these queries manually
+
+---
+
+## 🚀 How to Run
+
+### Using the Command Line
+
+```bash
+mongosh < bookstore_queries.js
